@@ -1,0 +1,16 @@
+{
+  "name": "@conf/ui-core",
+  "version": "0.0.1",
+  "private": false,
+  "exports": {
+    "./components": "./components/index.ts",
+    "./config": "./config/index.ts",
+    "./lib": "./lib/index.ts",
+    "./styles": "./styles/globals.css"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "react": "latest",
+    "@types/react": "latest"
+  }
+}
